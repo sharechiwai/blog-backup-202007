@@ -65,7 +65,7 @@ xsd.exe -c[-c mean general Class] -l:[Language Name e.g. c#/vb] -n:[Namespace][x
 ```
 
 如果你的 XSD 檔案不是 proper define command prompt 便會出示一些 error message 說出那裡出現問題就好像下面一樣
-[<img src="http://api.photoshop.com/home_453edadf42c44e2bba351fb5d2dfaeb1/adobe-px-assets/4a289c78d50e41b3ab9aa6360145924e" alt="" border="0" />](http://api.photoshop.com/home_453edadf42c44e2bba351fb5d2dfaeb1/adobe-px-assets/4a289c78d50e41b3ab9aa6360145924e)
+
 這樣你便要看清楚你的 XSD 檔案是否 Well define 了
 
 如果你的 xsd 檔案是沒有問題
