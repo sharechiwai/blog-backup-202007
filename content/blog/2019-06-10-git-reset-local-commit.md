@@ -1,0 +1,22 @@
+---
+title: 'Git undo local commit'
+date: 2019-06-10T00:00:00+08:00
+author: ShareChiWai
+layout: post
+categories:
+  - git
+tags:
+  - git
+---
+
+Git undo pushed commit and keep changes unstage
+
+
+
+解決方法
+
+```
+ git reset HEAD^
+```
+
+```
