@@ -9,24 +9,45 @@ tags:
   - NodeJs, Javascript, ES5
 ---
 
-使用 firebase hosting 來 host reactjs 既時候 出現了以下問題
-當我直接在 browser 輸入 ReactJs 的 route 既時候 出現了
+今日有個 task 其中一個地方要在 Array of Json object 中
+Distinct 一個 property
+
+```javascript
+const data = [
+  {
+    id: 1,
+    category: 'fruit',
+    name: 'Apple',
+  },
+  {
+    id: 2,
+    category: 'fruit',
+    name: 'Banana',
+  },
+  {
+    id: 3,
+    category: 'herb',
+    name: 'Basil',
+  },
+  {
+    id: 4,
+    category: 'herb',
+    name: 'Rosemary',
+  },
+  {
+    id: 5,
+    category: 'fruit',
+    name: 'Dragon Fruit',
+  },
+];
+```
+
+**解決方法:** ES5
 
 ```
-Page Not Found
-This file does not exist and there was no index.html found in the current directory or 404.html in the root directory
-
-```
-
-
-_解決方法:_
-我們只需要在 `firebase.json` 的 `hosting` section
-加上 `rewrites` 到 index.html 便可以了
-
-```
- var ports = arr.map( // try to retrieve specific property
+ var categories = data.map( // try to retrieve specific property
         function(item) {
-          return item.interestedProperty;
+          return item.category;
         }) // Distinct
         .filter(function(item, index, arr){
           return arr.indexOf(item) === index;
