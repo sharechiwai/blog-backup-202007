@@ -13,9 +13,17 @@ tags:
 有時候覺得其實用 mouse 都可以..
 但係用shortcut key 有時真係方便好多
 
-Remove and Sort Using
+**Remove and Sort Using**
 `Ctrl + R Ctrl + G`
 
-Commented out highlighted code
+**Comment the selected line**
 `Ctrl K + Ctrl + C`
+
+**Uncomment the selected line**
+`Ctrl K + Ctrl + U`
+
 Hope you find it useful
+
+
+
+https://stackoverflow.com/questions/37409293/xsd-restriction-either-number-or-fixed-string
