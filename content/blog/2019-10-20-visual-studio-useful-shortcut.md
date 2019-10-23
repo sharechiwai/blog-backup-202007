@@ -6,7 +6,7 @@ layout: post
 categories:
   - Visual Studio
 tags:
-  - Visual Studio, C#, dotnet, shortcut
+  - Visual Studio, Csharp, dotnet, shortcut
 ---
 
 最近有一個 task 係要做一些 code clean up...
