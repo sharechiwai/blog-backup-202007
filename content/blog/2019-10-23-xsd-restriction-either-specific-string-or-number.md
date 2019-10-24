@@ -1,6 +1,6 @@
 ---
 title: 'XSD restriction for either specific string or number (mixture type)'
-date: 2019-10-20T00:00:00+08:00
+date: 2019-10-23T00:00:00+08:00
 author: ShareChiWai
 layout: post
 categories:
