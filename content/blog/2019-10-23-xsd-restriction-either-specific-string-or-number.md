@@ -9,11 +9,11 @@ tags:
   - XML, XSD,
 ---
 
-如果在**XSD restriction** 上 容許 mix restriction (mix data type) 呢?
-**解決方法:**
-我們可以建立一個`simpleType`
-之後在`simpleType` 入面使用 `union`
-再把多個`simpleType` union 在一起
+如果在**XSD restriction** 上 容許 mix restriction (mix data type) 呢?  
+**解決方法:**  
+我們可以建立一個`simpleType`  
+之後在`simpleType` 入面使用 `union`  
+再把多個`simpleType` union 在一起  
 **e.g.**
 
 ```xml
