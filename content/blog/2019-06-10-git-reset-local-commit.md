@@ -9,12 +9,12 @@ tags:
   - git
 ---
 
-久唔久就會大意地 Commit 錯野
-發現以下這個 git command
+久唔久就會大意地 Commit 錯野  
+發現以下這個 git command  
 
-Git undo pushed commit and keep changes unstage
-**解決方法**
+Git undo pushed commit and keep changes unstage  
+**解決方法**  
 
 ```
  git reset HEAD^
-```
+```  

@@ -21,14 +21,13 @@ tags:
 <img src="https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?fit=625%2C163&ssl=1" alt="" class="wp-image-4157" srcset="https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?w=1418 1418w, https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?resize=300%2C78 300w, https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?resize=768%2C200 768w, https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?resize=1024%2C267 1024w, https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?resize=624%2C163 624w, https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2019/04/image.png?w=1250 1250w" sizes="(max-width: 625px) 100vw, 625px" /> </figure> 
 
 仔細看他其實是在找**npm install** 的 module 的 folder  
-&#8220;c:\user\chi\AppData\Roaming\npm\node_modules&#8221;  
+`c:\user\chi\AppData\Roaming\npm\node_modules`
 但我是用 yarn install的所以 是使用錯了folder  
 **解決方法**十分簡單  
-我們只要使用 yarn 執行便可  
+我們只要使用 `yarn` 執行便可  
 
+```bash
+yarn eslint ./src
+```  
 
-<pre class="wp-block-preformatted">yarn eslint ./src
-
-</pre>
-
-Hope you find it useful
+Hope you find it useful  

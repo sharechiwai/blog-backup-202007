@@ -15,6 +15,15 @@ tags:
 我們可以使用以下指令到 clear Yarn / NPM 的 cache  
 
 
-<pre class="wp-block-preformatted"># yarn<br />yarn cache clean<br /><br /># npm <br />npm cache clean <br /><br /># remove node_modules folder<br />rm -rf node_modules/<br /></pre>
+```bash
+ # yarn
+ yarn cache clean
+ 
+ # npm
+ npm cache clean
+ 
+ # remove node_modules folder
+ rm -rf node_modules
+ ```  
 
 Hope you find it useful

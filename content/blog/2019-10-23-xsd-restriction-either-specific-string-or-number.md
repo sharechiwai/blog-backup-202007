@@ -6,7 +6,8 @@ layout: post
 categories:
   - XML
 tags:
-  - XML, XSD,
+  - XML
+  - XSD
 ---
 
 如果在**XSD restriction** 上 容許 mix restriction (mix data type) 呢?  

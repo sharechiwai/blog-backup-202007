@@ -6,11 +6,13 @@ layout: post
 categories:
   - Javascript
 tags:
-  - NodeJs, Javascript, ES5
+  - NodeJs
+  - Javascript
+  - ES5
 ---
 
-今日有個 task 其中一個地方要在 Array of Json object 中
-Distinct 一個 property
+今日有個 task 其中一個地方要在 Array of Json object 中  
+Distinct 一個 property  
 
 ```javascript
 const data = [
@@ -42,7 +44,7 @@ const data = [
 ];
 ```
 
-**解決方法:** ES5
+**解決方法:** (ES5)  
 
 ```
  var categories = data.map( // try to retrieve specific property

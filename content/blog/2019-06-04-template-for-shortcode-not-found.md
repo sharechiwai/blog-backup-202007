@@ -10,17 +10,17 @@ tags:
   - hugo
 ---
 
-Hugo Error
+Hugo Error  
 
-`failed to extract shortcode: template for shortcode "alert" not found`
+`failed to extract shortcode: template for shortcode "alert" not found`  
 
-解決方法
+**解決方法**
 
 ```
  git submodule update --init --recursive
 ```
 
-Test
+**Test**
 
 ```
 hugo server --watch
