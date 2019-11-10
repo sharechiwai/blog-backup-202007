@@ -4,7 +4,6 @@ title: Git Check which branch contain specific commit
 date: 2019-02-10T00:00:44+08:00
 author: ShareChiWai
 layout: post
-permalink: /2019/02/git-check-which-branch-contain-specific-commit/
 categories:
   - Git
 tags:

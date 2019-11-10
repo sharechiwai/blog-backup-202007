@@ -4,8 +4,6 @@ title: 'WPScan Docker Sample - WPScan Docker 示範'
 date: 2018-10-01T09:06:35+08:00
 author: ShareChiWai
 layout: post
-guid: https://blog.sharechiwai.com/?p=4064
-permalink: '/2018/10/wpscan-docker-sample-wpscan-docker/'
 categories:
   - Docker
 tags:
@@ -21,19 +19,22 @@ tags:
 首先要 **pull wpscan** 既 **docker image**
 <https://hub.docker.com/r/wpscanteam/wpscan/>
 
-<pre>docker pull wpscanteam/wpscan
-</pre>
+```bash
+docker pull wpscanteam/wpscan
+```
 
 之後便可以使用這個**Docker image** 來執行 **wpscan** 的指令
 e.g.
 
-<pre>docker run --rm wpscanteam/wpscan --url https://blog.sharechiwai.com
-</pre>
+```bash
+docker run --rm wpscanteam/wpscan --url https://blog.sharechiwai.com
+```
 
-如果想直接進入這個 wpscan 的 docker image 上執行 wpscan 可以使用以下指令
+如果想直接進入這個 `wpscan` 的 docker image 上執行 wpscan 可以使用以下指令
 
-<pre>docker run -it --entrypoint /bin/sh wpscanteam/wpscan
-</pre>
+```bash
+docker run -it --entrypoint /bin/sh wpscanteam/wpscan
+```
 
 想了解更多的**wpscan** 的用法可以參考他們的網站
 <https://github.com/wpscanteam/wpscan>

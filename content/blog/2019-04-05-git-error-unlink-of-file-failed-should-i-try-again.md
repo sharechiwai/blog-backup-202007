@@ -13,7 +13,7 @@ tags:
 ---
 
 久不久我使用的 `Git` 便會出現以下問題
-**Unlink of file. &#8216; file path and name&#8217; failed. Should I try again? (y/n)**
+**Unlink of file. ' file path and name' failed. Should I try again? (y/n)**
 
 <figure class="wp-block-image">
 

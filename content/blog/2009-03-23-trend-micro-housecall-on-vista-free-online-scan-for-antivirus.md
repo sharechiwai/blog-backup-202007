@@ -34,11 +34,11 @@ Once you done that you need to choose a <span style="font-weight: bold;">HouseCa
 
 Then you will see a "<span style="font-weight: bold;">Select Scan Options</span>" screen.
 
-<span style="font-weight: bold;">Recommended scan</span> &#8211; only scan for malware, grayware, vulnerability and selected location. It will perform quicker
+<span style="font-weight: bold;">Recommended scan</span> - only scan for malware, grayware, vulnerability and selected location. It will perform quicker
 
-<span style="font-weight: bold;">Complete scan</span> &#8211; probably will scan for everything on you PC
+<span style="font-weight: bold;">Complete scan</span> - probably will scan for everything on you PC
 
-<span style="font-weight: bold;">Customized Scan</span> &#8211; you can select what to scan.
+<span style="font-weight: bold;">Customized Scan</span> - you can select what to scan.
 It has one more option than Recommended Scan which is scan open network port
 I think it would be quite useful to see if your computer has open a network port which could be attack by hacker.
 If you have selected "<span style="font-weight: bold;">Open Network ports</span>" it will pop up a message to inform you that the program will perform a port scan. (It is not a hacker attack (not this time))

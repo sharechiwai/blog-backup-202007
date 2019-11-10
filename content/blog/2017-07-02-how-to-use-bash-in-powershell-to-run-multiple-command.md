@@ -29,7 +29,7 @@ tags:
 <span style="color: #ff0000;"><strong>At line:1 char:12</strong></span>
 <span style="color: #ff0000;"><strong>+ git fetch && git checkout develop</strong></span>
 <span style="color: #ff0000;"><strong>+ ~~</strong></span>
-<span style="color: #ff0000;"><strong>The token &#8216;‘‘' is not a valid statement separator in this version.</strong></span>
+<span style="color: #ff0000;"><strong>The token '‘‘' is not a valid statement separator in this version.</strong></span>
 <span style="color: #ff0000;"><strong> + CategoryInfo : ParserError: (:) [], ParentContainsErrorRecordException</strong></span>
 <span style="color: #ff0000;"><strong> + FullyQualifiedErrorId : InvalidEndOfLine</strong></span>
 "

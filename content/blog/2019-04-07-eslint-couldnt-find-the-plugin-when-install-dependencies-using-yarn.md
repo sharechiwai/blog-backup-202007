@@ -1,11 +1,9 @@
 ---
 id: 4156
-title: 'ESLint couldn&#8217;t find the plugin  (when install dependencies using yarn)'
+title: 'ESLint couldn't find the plugin  (when install dependencies using yarn)'
 date: 2019-04-07T11:25:53+08:00
 author: ShareChiWai
 layout: post
-guid: https://blog.sharechiwai.com/?p=4156
-permalink: /2019/04/eslint-couldnt-find-the-plugin-when-install-dependencies-using-yarn/
 categories:
   - Javascript
 tags:

@@ -1,6 +1,6 @@
 ---
 id: 4051
-title: 'Free Software for Student &#8211; 免費軟體 (學生篇)'
+title: 'Free Software for Student - 免費軟體 (學生篇)'
 date: 2018-02-06T21:36:47+08:00
 author: ShareChiWai
 layout: post

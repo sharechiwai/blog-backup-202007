@@ -1,6 +1,6 @@
 ---
 id: 3207
-title: 'Windows Azure Region Location &#8211; Microsoft Azure 終於開始使用Windows/ Azure Microsoft Azure 了'
+title: 'Windows Azure Region Location - Microsoft Azure 終於開始使用Windows/ Azure Microsoft Azure 了'
 date: 2014-06-01T00:00:53+08:00
 author: ShareChiWai
 layout: post

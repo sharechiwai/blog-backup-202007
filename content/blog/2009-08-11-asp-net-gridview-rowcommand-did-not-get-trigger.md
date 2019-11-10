@@ -11,10 +11,11 @@ blogger_blog:
 blogger_author:
   - 智/Chi
 blogger_242190872ae71f6d0f1f8731ec21ccf3_permalink:
-  - "1031693772412055032"
+  - '1031693772412055032'
 categories:
   - ASP.Net Tips and Tricks
 ---
+
 I was stuck in a <span style="font-weight:bold;">GridView RowCommand</span> problem for a long time. Not sure why the <span style="font-weight:bold;">RowCommand </span>did not get trigger"
 Here is my situation:
 
@@ -24,14 +25,14 @@ I have done the similar feature several time, all of them works fine. Unfortunat
 
 So I have set up several break point to where the <span style="font-weight:bold;">RowCommand </span>handler is, a strange thing happened. The <span style="font-weight:bold;">RowCommand Handler</span> did not get triggered at all.
 
-Finally, I just realised I have forgotten to put an if-statement ispostback on the Page Load event, so that whenever the RowCommand get triggered, it executed a post back, which will run the page\_load event. And inside my Page\_Load event, it will populate the table again. Therefore, the RowCommand never get triggered.
+Finally, I just realised I have forgotten to put an if-statement ispostback on the Page Load event, so that whenever the RowCommand get triggered, it executed a post back, which will run the page_load event. And inside my Page_Load event, it will populate the table again. Therefore, the RowCommand never get triggered.
 
 <span style="font-weight:bold;">Solution is:</span>
 To put a code on <span style="font-weight:bold;">Page_Load Event</span> to check if it is a <span style="font-weight:bold;">PostBack </span>or not. If it is not a postback then populate the table, if Not, then skip it.
 Here it is the Code to check if it is postback or not.
 
 <span style="font-weight:bold;">VB.Net</span>
-<span style="color:rgb(0,153,0);font-size:85%;">If Not IsPostBack Then<br /> &#8216;Do some action, in my case populate the table<br />End</span>
+<span style="color:rgb(0,153,0);font-size:85%;">If Not IsPostBack Then<br /> 'Do some action, in my case populate the table<br />End</span>
 
 <span style="font-weight:bold;">C#</span>
 <span style="font-size:85%;"><span style="color:rgb(0,153,0);">if(!IsPostBack){</span><br /><span style="color:rgb(0,153,0);"> //Do some action, in my case populate the table</span><br /><span style="color:rgb(0,153,0);"> }</span><br /></span>

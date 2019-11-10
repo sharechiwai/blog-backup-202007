@@ -1,6 +1,6 @@
 ---
 id: 381
-title: '開啟 CHM 說明檔 問題 (XP/VISTA) &#8211; 已取消瀏覽該網頁'
+title: '開啟 CHM 說明檔 問題 (XP/VISTA) - 已取消瀏覽該網頁'
 date: 2009-08-15T08:15:00+08:00
 author: ShareChiWai
 layout: post

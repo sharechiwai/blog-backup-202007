@@ -1,6 +1,6 @@
 ---
 id: 430
-title: 'Jquery&#8217;s Notes'
+title: 'Jquery's Notes'
 date: 2009-03-19T03:19:00+08:00
 author: ShareChiWai
 layout: post

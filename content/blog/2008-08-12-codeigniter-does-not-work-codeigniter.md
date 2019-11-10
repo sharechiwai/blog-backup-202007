@@ -24,10 +24,10 @@ categories:
 到<span style="color:#339966;">systemapplicationconfig</span>
 開啟: <span style="color:#339966;">config.php</span>
 之後找
-<span style="color:#339966;">$config[&#8216;rewrite_short_tags&#8217;]</span>
+<span style="color:#339966;">$config['rewrite_short_tags']</span>
 如果設定為FALSE 的話
 就會用不到這個功能的
 只要把設定改到好像下面一樣便可
-<span style="color:#339966;">$config[&#8216;rewrite_short_tags&#8217;] = TRUE;</span>
+<span style="color:#339966;">$config['rewrite_short_tags'] = TRUE;</span>
 
 Hope you find it useful

@@ -4,8 +4,6 @@ title: Code-Playground
 date: 2019-01-02T00:00:50+08:00
 author: ShareChiWai
 layout: post
-guid: https://blog.sharechiwai.com/?p=4074
-permalink: /2019/01/code-playground/
 categories:
   - .Net Tips And Tricks
 tags:
@@ -13,23 +11,24 @@ tags:
   - dotnet core
   - React
 ---
-發覺返到香港越來越難集中去做自己既project  
-連blog 都少寫了  
-今日終於逼自己係GitHub 度開個repository  
-去寫下code 希望每星期都會commit到D code 同有blog post share  
-個project 叫做 Code-Playground  
-主要是用來share自己想寫既project  
+
+發覺返到香港越來越難集中去做自己既 project  
+連 blog 都少寫了  
+今日終於逼自己係 GitHub 度開個 repository  
+去寫下 code 希望每星期都會 commit 到 D code 同有 blog post share  
+個 project 叫做 Code-Playground  
+主要是用來 share 自己想寫既 project  
 但係因為自己個根基比較弱..  
-上網跟住D Tutorial blog post 有時可能version / setup 問題  
-或是我想做的feature 比較複雜  
-所以都係做唔到Expected result  
-  
-希望藉著呢個repository 可以和大家分享這些code和解決方法  
-和學習一下怎樣organise projects  
+上網跟住 D Tutorial blog post 有時可能 version / setup 問題  
+或是我想做的 feature 比較複雜  
+所以都係做唔到 Expected result
+
+希望藉著呢個 repository 可以和大家分享這些 code 和解決方法  
+和學習一下怎樣 organise projects  
 **Source code:**  
-<https://github.com/sharechiwai/code-playground>  
-  
-Demo site 會 deploy 到一些free的hosting 上  
+<https://github.com/sharechiwai/code-playground>
+
+Demo site 會 deploy 到一些 free 的 hosting 上  
 e.g.  
 **Azure App Service**  
 <https://code-playground.azurewebsites.net>  
