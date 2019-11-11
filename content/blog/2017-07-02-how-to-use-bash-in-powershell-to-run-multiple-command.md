@@ -21,8 +21,9 @@ tags:
 **VS code** 是使用**Powershell**的
 所以當我嘗試執行
 
-<pre>git fetch && git checkout develop
-</pre>
+```bash
+git fetch && git checkout develop
+```
 
 遇到以下的錯誤信息
 "

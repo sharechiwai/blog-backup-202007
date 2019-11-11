@@ -4,8 +4,6 @@ title: ASP.Net Core Enable Development Error
 date: 2017-07-01T12:07:06+08:00
 author: ShareChiWai
 layout: post
-guid: http://blog.sharechiwai.com/?p=4011
-permalink: /2017/07/asp-net-core-enable-development-error/
 categories:
   - .net core
 tags:
@@ -74,15 +72,14 @@ if (env.IsDevelopment())
                 });
 ```
 
-** [<img class="alignnone size-large wp-image-4013" src="https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2017/07/startupcs.png?resize=625%2C287" alt="startup.cs" width="625" height="287" sizes="(max-width: 625px) 100vw, 625px" data-recalc-dims="1" />](https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2017/07/startupcs.png)
-解決方法 2**
+[<img class="alignnone size-large wp-image-4013" src="https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2017/07/startupcs.png?resize=625%2C287" alt="startup.cs" width="625" height="287" sizes="(max-width: 625px) 100vw, 625px" data-recalc-dims="1" />](https://i1.wp.com/blog.sharechiwai.com/wp-content/uploads/2017/07/startupcs.png)
+**解決方法 2**
 這個方法比理性
-就是更改 開發電腦的 **Environment Variable Settings**
-我們可以使用**Command prompt**
-執行以下指令設定**環境變數** **Environment Variable**
+就是更改 開發電腦的 `Environment Variable Settings`
+我們可以使用`Command prompt`
+執行以下指令設定`環境變數` `Environment Variable`
 
-<pre>set ASPNETCORE_ENVIRONMENT=Development
-</pre>
+`set ASPNETCORE_ENVIRONMENT=Development`
 
 **[<img class="alignnone size-large wp-image-4012" src="https://i0.wp.com/blog.sharechiwai.com/wp-content/uploads/2017/07/aspnetCoreEvvironment.png?resize=625%2C105" alt="Set up ASPNETCORE Environment Variable" width="625" height="105" sizes="(max-width: 625px) 100vw, 625px" data-recalc-dims="1" />](https://i0.wp.com/blog.sharechiwai.com/wp-content/uploads/2017/07/aspnetCoreEvvironment.png)**
 詳情可以參考以下網頁

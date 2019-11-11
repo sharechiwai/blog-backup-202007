@@ -4,8 +4,6 @@ title: Git refusing to merge unrelated histories
 date: 2017-12-12T10:11:24+08:00
 author: ShareChiWai
 layout: post
-guid: http://blog.sharechiwai.com/?p=4039
-permalink: /2017/12/git-refusing-to-merge-unrelated-histories/
 categories:
   - Git
 tags:
@@ -15,7 +13,7 @@ tags:
   - Git Troubleshooting
 ---
 
-今日剛在**Bitbucket** 建立左一個新既 repos
+今日剛在**Bitbucket** 建立左一個新既 repos  
 當我嘗試 push local 的一個 **git repos**上去既時候出現了以下的錯誤信息
 (當我嘗試 Pull 這個 repos 去 local 的 repos 時)
 "<span style="color: #ff0000;"><strong>fatal: refusing to merge unrelated histories</strong></span>"
@@ -25,7 +23,8 @@ tags:
 **解決方法分簡單**
 我們只需要輸入以卜**git** 指令便可以
 
-<pre>git pull --allow-unrelated-histories
-</pre>
+```bash
+git pull --allow-unrelated-histories
+```
 
 Hope you find it useful

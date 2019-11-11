@@ -14,7 +14,7 @@ tags:
   - VSCode Plugin
 ---
 
-解決方法十分簡單:
+**解決方法十分簡單:**
 我們可以去 "**File**" -> "**Preferences**" -> "Settings"
 的 "**User Settings**" 上把 "<span style="color: #008000;"><strong>editor.minimap.</strong>enabled</span>" 設定為 <span style="color: #ff0000;"><strong>false</strong></span> 便可以了
 
