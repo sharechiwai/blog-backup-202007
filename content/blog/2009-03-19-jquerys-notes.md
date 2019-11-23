@@ -1,6 +1,6 @@
 ---
 id: 430
-title: 'Jquery's Notes'
+title: "Jquery's Notes"
 date: 2009-03-19T03:19:00+08:00
 author: ShareChiWai
 layout: post
@@ -11,7 +11,7 @@ blogger_blog:
 blogger_author:
   - 智/Chi
 blogger_6870bb21ec74375fd3c4e74cc80d3a54_permalink:
-  - '6906755266741820197'
+  - "6906755266741820197"
 categories:
   - Jquery Notes
 ---

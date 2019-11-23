@@ -1,6 +1,6 @@
 ---
 id: 4138
-title: 'Linux updated folder and subfolder's ownership'
+title: "Linux updated folder and subfolder's ownership"
 date: 2019-03-11T00:00:18+08:00
 author: ShareChiWai
 layout: post

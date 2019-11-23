@@ -1,6 +1,6 @@
 ---
 id: 4156
-title: 'ESLint couldn't find the plugin  (when install dependencies using yarn)'
+title: "ESLint couldnt find the plugin  (when install dependencies using yarn)"
 date: 2019-04-07T11:25:53+08:00
 author: ShareChiWai
 layout: post
