@@ -28,3 +28,6 @@ JSON.stringify(c, null, 4)
 ```
 
 Hope you find it useful
+
+
+https://love2dev.com/blog/css-text-transform/#:~:targetText=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&targetText=lowercase%3A%20makes%20all%20of%20the,word%20in%20the%20selected%20text.
