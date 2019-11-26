@@ -7,12 +7,11 @@ categories:
   - CSS
 tags:
   - css
-  - text 
+  - text
   - WordPress
 ---
 
 之前介紹過用如何用 Docker 來
-
 
 如何用 `Javascript` format `JSON`  
 **解決方法:**  
@@ -30,7 +29,5 @@ Hope you find it useful
 capitalize
 
 https://love2dev.com/blog/css-text-transform/#:~:targetText=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&targetText=lowercase%3A%20makes%20all%20of%20the,word%20in%20the%20selected%20text.
-
-
 
 https://www.petri.com/how-to-uninstall-and-reset-windows-subsystem-for-linux-distributions
