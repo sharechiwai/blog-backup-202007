@@ -58,4 +58,11 @@ const data = [
 
 ```
 
+**解決方法:** (ES6)  
+
+```
+ const categories = [...new Set(data.map(x => x.category ))];
+
+```
+
 Hope you find it useful
