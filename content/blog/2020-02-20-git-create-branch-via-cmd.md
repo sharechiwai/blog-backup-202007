@@ -1,6 +1,6 @@
 ---
 title: "git Create branch via Command"
-date: 2019-12-11T00:00:00+08:00
+date: 2020-02-20T00:00:00+08:00
 author: ShareChiWai
 layout: post
 categories:
@@ -14,7 +14,7 @@ tags:
 最後選擇最原始既方法...  
 就是使用 command line 了  
 
-**解決方法: **
+**解決方法:**
 ```bash
 # 首先 checkout 了你想Create branch from 的 branch && git pull
 git checkout uat && git pull
