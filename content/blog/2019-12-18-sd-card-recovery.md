@@ -21,3 +21,13 @@ Delete 曬所有相.. 問我有無方法可 recovery 返...
 https://www.cgsecurity.org/wiki/TestDisk
 
 https://www.ccleaner.com/recuva
+
+
+http://www.puransoftware.com/Data-Recovery.html
+download 了
+http://www.puransoftware.com/File-Recovery.html
+不用install recover 的speed也很快
+
+Recover 成功%都很高
+
+https://www.easeus.com/data-recovery/sd-card-data-recovery-software.html#part9
