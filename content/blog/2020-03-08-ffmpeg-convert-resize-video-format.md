@@ -61,4 +61,6 @@ ffmpeg -i [Input].mp4 -vf scale=-[Scale height e.g. 1920]:[scale width e.g. 1080
 ffmpeg -i 20190907_122335.mp4 -vf scale=-1:1080 -c:v libx264 -crf 18 -preset veryslow -c:a copy 20190907_122335_1080.mp4 -async 1 -vsync 1
 ```
 
+使用
+
 Hope you find it useful
